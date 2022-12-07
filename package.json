@@ -1,0 +1,14 @@
+{
+  "name": "oc-p3",
+  "version": "1.0.0",
+  "description": "Joe Blow's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Looping",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^9.1.3"
+  }
+}
