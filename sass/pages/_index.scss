@@ -1,0 +1,113 @@
+.localisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colour-grey;
+  padding: 15px;
+  h5 {
+    margin-left: 5px;
+  }
+}
+
+.explor {
+  padding-top: 35px;
+  height: 180px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: $colour-grey-light;
+  h2 {
+    margin-bottom: 15px;
+  }
+  button {
+    margin-top: 30px;
+  }
+}
+
+.fonctionning {
+  margin-top: 50px;
+  margin-left: 24px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  > div {
+    height: 75px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  &__number {
+    position: absolute;
+    top: 25px;
+    background-color: $colour-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  &__img {
+    height: 25px;
+    margin-right: 10px;
+    filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg)
+      brightness(104%) contrast(91%);
+    &--activate {
+      filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+        brightness(87%) contrast(97%);
+    }
+  }
+  &__text {
+    box-shadow: 0px 0px 8px 1px $colour-grey;
+    background-color: $colour-grey-light;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    &-activate {
+      background: lighten($colour-secondary, 22%);
+    }
+  }
+}
+
+.restaurant {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lighten($colour-grey, 5%);
+  &__thumbnail {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: white;
+    > img {
+      height: 124px;
+      object-fit: cover;
+      border-radius: 20px 20px 0px 0px;
+    }
+    &__description {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-direction: row;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 3%;
+      padding-right: 5%;
+      > img {
+        height: 30px;
+      }
+    }
+  }
+}

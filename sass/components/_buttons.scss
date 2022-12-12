@@ -1,14 +1,12 @@
 .btn {
-  height: 40px;
-  border-radius: 20px;
+  height: 50px;
+  border-radius: 25px;
   border: 0;
   background: $colour-secondary;
-  background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
   font-weight: 900;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-image: linear-gradient(
     to top,
     $colour-primary 0%,
