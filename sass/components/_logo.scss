@@ -2,3 +2,8 @@
   height: 20px;
   rotate: 180deg;
 }
+.logo-footer {
+  height: 20px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg)
+    brightness(100%) contrast(103%);
+}

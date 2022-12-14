@@ -10,54 +10,87 @@
   font-family: Roboto-Bold;
   src: url(../../public/font/Roboto/Roboto-Bold.ttf);
 }
-body {
-  font-family: "Roboto";
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../../public/font/Roboto/Roboto-Light.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+.title-main {
   font-family: Shrikhand-Regular;
   font-size: 28px;
-  margin: 0;
 }
 
-h2 {
+.title-secondary {
   font-family: Roboto-Bold;
   font-size: 24px;
   font-weight: 100;
-  margin: 0;
 }
 
-h3 {
-  font-size: 16px;
+.explor-text {
+  font-family: Roboto-Light;
+  font-size: 18px;
   font-weight: 300;
-  margin: 0;
 }
-
-h4 {
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0;
-}
-h5 {
+.title-localisation {
   font-family: Roboto-Bold;
-  margin: 0;
   font-size: 16px;
   font-weight: 100;
 }
-p {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 400;
+.title-fonctionning {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  font-weight: 100;
 }
-a {
+.title-restaurant {
+  font-family: Shrikhand-Regular;
+  font-size: 26px;
+}
+.title-meal {
+  font-family: Roboto-Light;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.title-thumbnail {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text-thumbnail {
+  font-family: Roboto-Light;
+  font-size: 17px;
+  font-weight: 300;
+}
+.title-footer {
+  font-family: Shrikhand-Regular;
+  font-size: 17px;
+}
+.text-footer-top {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 900;
+}
+.text-footer-bootom {
+  font-family: Roboto-Light;
+  font-size: 23px;
+  font-weight: 300;
+}
+.new {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 900;
+}
+.link {
   color: #000000;
   text-decoration: none;
-}
-
-textarea {
-  font-family: "Roboto", sans-serif;
-}
-
-button {
-  font-family: "Roboto", sans-serif;
 }

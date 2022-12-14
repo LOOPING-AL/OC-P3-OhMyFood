@@ -1,0 +1,22 @@
+footer {
+  background-color: $colour-grey-dark;
+  color: white;
+  height: 195px;
+  padding-left: 25px;
+  padding-right: 25px;
+  a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 10px;
+  }
+  h1 {
+    padding-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  h5,
+  h6 {
+    color: white;
+  }
+}

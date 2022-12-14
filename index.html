@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100,900i"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="/public/css/style.css" />
     <title>Ohmyfood!</title>
   </head>
@@ -18,7 +14,7 @@
         src="public/icones/arrow_forward_black_24dp.svg"
         alt="arrow_forward_black_24dp"
       />
-      <h1 class="header__main-title">ohmyfood</h1>
+      <h1 class="header__title title-main">ohmyfood</h1>
     </header>
 
     <main>
@@ -28,127 +24,162 @@
             src="public/icones/location_on_black_24dp.svg"
             alt="location_on_black_24dp!"
           />
-          <h5>Paris, Belleville</h5>
+          <h5 class="title-localisation">Paris, Belleville</h5>
         </div>
 
         <div class="explor">
-          <h2>Reservez le menu qui vous convient</h2>
-          <h3>Découvrez des restaurants d'exceptions,</h3>
-          <h3>selectionnés par nos soins.</h3>
+          <h2 class="title-secondary">Reservez le menu qui vous convient</h2>
+          <h4 class="explor-text">Découvrez des restaurants d'exceptions,</h4>
+          <h4 class="explor-text">selectionnés par nos soins.</h4>
           <button class="btn">Explorez nos restaurants</button>
         </div>
       </thead>
-      <main>
-        <section class="fonctionning">
-          <h2>Fonctionnement</h2>
-          <div>
-            <div class="fonctionning__number">1</div>
-            <div class="fonctionning__text">
+      <section class="fonctionning">
+        <h2 class="title-secondary">Fonctionnement</h2>
+        <div>
+          <div class="fonctionning__number">1</div>
+          <div class="fonctionning__text">
+            <img
+              class="fonctionning__img"
+              src="public/icones/phone_iphone_black_24dp.svg"
+              alt="phone_iphone_black_24dp"
+            />
+            <h5 class="title-fonctionning">Choisissez un restaurant</h5>
+          </div>
+        </div>
+        <div>
+          <div class="fonctionning__number">2</div>
+          <div class="fonctionning__text">
+            <img
+              class="fonctionning__img"
+              src="public/icones/list_black_24dp.svg"
+              alt="list_black_24dp"
+            />
+            <h5 class="title-fonctionning">Composez votre menu</h5>
+          </div>
+        </div>
+        <div>
+          <div class="fonctionning__number">3</div>
+          <div class="fonctionning__text fonctionning__text-activate">
+            <img
+              class="fonctionning__img fonctionning__img--activate"
+              src="public/icones/storefront_black_24dp.svg"
+              alt="phone_iphone_black_24dp"
+            />
+            <h5 class="title-fonctionning">Dégustez au restaurant</h5>
+          </div>
+        </div>
+      </section>
+      <section class="restaurant">
+        <h2 class="title-secondary">Restaurants</h2>
+        <div class="restaurant__arrangement">
+          <a class="link restaurant__thumbnail" href="alafrancaise.html">
+            <p class="new">Nouveau</p>
+            <img
+              src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+              alt="jay-wennington-N_Y88TWmGwA-unsplash"
+            />
+            <div class="restaurant__thumbnail__description">
+              <div>
+                <h3 class="title-thumbnail">La palette du goût</h3>
+                <h6 class="text-thumbnail">Ménilmontant</h6>
+              </div>
               <img
-                class="fonctionning__img"
-                src="public/icones/phone_iphone_black_24dp.svg"
-                alt="phone_iphone_black_24dp"
+                src="public/icones/favorite_border_black_24dp.svg"
+                alt="favorite_border_black_24dp"
               />
-              <h5>Choisissez un restaurant</h5>
             </div>
-          </div>
-          <div>
-            <div class="fonctionning__number">2</div>
-            <div class="fonctionning__text">
+          </a>
+          <a class="link restaurant__thumbnail" href="#">
+            <p class="new">Nouveau</p>
+            <img
+              src="public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+              alt="jay-wennington-N_Y88TWmGwA-unsplash"
+            />
+            <div class="restaurant__thumbnail__description">
+              <div>
+                <h3 class="title-thumbnail">La note enchantée</h3>
+                <h6 class="text-thumbnail">Charonne</h6>
+              </div>
               <img
-                class="fonctionning__img"
-                src="public/icones/list_black_24dp.svg"
-                alt="list_black_24dp"
+                src="public/icones/favorite_border_black_24dp.svg"
+                alt="favorite_border_black_24dp"
               />
-              <h5>Composez votre menu</h5>
             </div>
-          </div>
-          <div>
-            <div class="fonctionning__number">3</div>
-            <div class="fonctionning__text fonctionning__text-activate">
+          </a>
+          <a class="link restaurant__thumbnail" href="#">
+            <img
+              src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+              alt="jay-wennington-N_Y88TWmGwA-unsplash"
+            />
+            <div class="restaurant__thumbnail__description">
+              <div>
+                <h3 class="title-thumbnail">À la française</h3>
+                <h6 class="text-thumbnail">Cité Rouge</h6>
+              </div>
               <img
-                class="fonctionning__img fonctionning__img--activate"
-                src="public/icones/storefront_black_24dp.svg"
-                alt="phone_iphone_black_24dp"
+                src="public/icones/favorite_border_black_24dp.svg"
+                alt="favorite_border_black_24dp"
               />
-              <h5>Dégustez au restaurant</h5>
             </div>
-          </div>
-        </section>
-        <section class="restaurant">
-          <h2>Restaurants</h2>
-          <div class="section-arrangement">
-            <a class="restaurant__thumbnail" href="#">
-              <img
-                src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="jay-wennington-N_Y88TWmGwA-unsplash"
-              />
-              <div class="restaurant__thumbnail__description">
-                <div>
-                  <h3>La palette du goût</h3>
-                  <p>Ménilmontant</p>
-                </div>
-                <img
-                  class="hosting-images"
-                  src="public/icones/favorite_border_black_24dp.svg"
-                  alt="favorite_border_black_24dp"
-                />
+          </a>
+          <a class="link restaurant__thumbnail" href="#">
+            <img
+              src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+              alt="jay-wennington-N_Y88TWmGwA-unsplash"
+            />
+            <div class="restaurant__thumbnail__description">
+              <div>
+                <h3 class="title-thumbnail">Le délice des sens</h3>
+                <h6 class="text-thumbnail">Folie-Méricourt</h6>
               </div>
-            </a>
-            <a class="restaurant__thumbnail" href="#">
               <img
-                src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="jay-wennington-N_Y88TWmGwA-unsplash"
+                src="public/icones/favorite_border_black_24dp.svg"
+                alt="favorite_border_black_24dp"
               />
-              <div class="restaurant__thumbnail__description">
-                <div>
-                  <h3>La palette du goût</h3>
-                  <h4>Ménilmontant</h4>
-                </div>
-                <img
-                  class="hosting-images"
-                  src="public/icones/favorite_border_black_24dp.svg"
-                  alt="favorite_border_black_24dp"
-                />
-              </div>
-            </a>
-            <a class="restaurant__thumbnail" href="#">
-              <img
-                src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="jay-wennington-N_Y88TWmGwA-unsplash"
-              />
-              <div class="restaurant__thumbnail__description">
-                <div>
-                  <h3>La palette du goût</h3>
-                  <h4>Ménilmontant</h4>
-                </div>
-                <img
-                  class="hosting-images"
-                  src="public/icones/favorite_border_black_24dp.svg"
-                  alt="favorite_border_black_24dp"
-                />
-              </div>
-            </a>
-            <a class="restaurant__thumbnail" href="#">
-              <img
-                src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="jay-wennington-N_Y88TWmGwA-unsplash"
-              />
-              <div class="restaurant__thumbnail__description">
-                <div>
-                  <h3 style="font-weight: bolder">La palette du goût</h3>
-                  <h4>Ménilmontant</h4>
-                </div>
-                <img
-                  class="hosting-images"
-                  src="public/icones/favorite_border_black_24dp.svg"
-                  alt="favorite_border_black_24dp"
-                />
-              </div>
-            </a>
-          </div>
-        </section>
-      </main>
+            </div>
+          </a>
+        </div>
+      </section>
     </main>
+    <footer>
+      <nav class="footer">
+        <ul>
+          <li>
+            <a class="link" href="">
+              <h1 class="title-footer">ohmyfood</h1>
+            </a>
+          </li>
+          <li>
+            <a class="link text-footer-top" href="">
+              <img
+                class="logo-footer"
+                src="public/icones/restaurant_black_24dp.svg"
+                alt="restaurant_black_24dp"
+              />
+              <h5>Proposer un restaurant</h5>
+            </a>
+          </li>
+          <li>
+            <a class="link text-footer-top" href="">
+              <img
+                class="logo-footer"
+                src="public/icones/handshake_FILL0_wght400_GRAD0_opsz48.svg"
+                alt="handshake_FILL0_wght400_GRAD0_opsz48"
+              />
+              <h5>Devinir partenaire</h5>
+            </a>
+          </li>
+          <li>
+            <a class="link text-footer-bootom" href="">
+              <h6>Mentions légales</h6>
+            </a>
+          </li>
+          <li>
+            <a class="link text-footer-bootom" href=""><h6>Contact</h6></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

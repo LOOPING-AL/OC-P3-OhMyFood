@@ -1,19 +1,17 @@
-$tags: img, h1;
 .header {
   display: flex;
   align-items: center;
   position: relative;
   height: 50px;
   box-shadow: 0 4px 6px -6px #222;
-  @each $tag in $tags {
-    #{$tag} {
-      position: absolute;
-    }
+  img {
+    position: absolute;
+    left: 10px;
   }
   h1 {
     width: 100%;
   }
-  &__main-title {
+  &__title {
     display: flex;
     justify-content: center;
   }
