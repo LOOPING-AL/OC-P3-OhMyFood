@@ -25,12 +25,12 @@ p {
   padding: 0;
 }
 
-.title-main {
+.main-title {
   font-family: Shrikhand-Regular;
   font-size: 28px;
 }
 
-.title-secondary {
+.secondary-title {
   font-family: Roboto-Bold;
   font-size: 24px;
   font-weight: 100;
@@ -41,46 +41,62 @@ p {
   font-size: 18px;
   font-weight: 300;
 }
-.title-localisation {
+.localisation-title {
   font-family: Roboto-Bold;
   font-size: 16px;
   font-weight: 100;
 }
-.title-fonctionning {
+.fonctionning-title {
   font-family: Roboto-Bold;
   font-size: 16px;
   font-weight: 100;
 }
-.title-restaurant {
+.restaurant-title {
   font-family: Shrikhand-Regular;
-  font-size: 26px;
+  font-size: 24px;
 }
-.title-meal {
+.meal-title {
   font-family: Roboto-Light;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
 }
-.title-thumbnail {
+.flat-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 900;
+}
+.flat-description {
+  font-family: Roboto-light;
+  font-size: 15px;
+  font-weight: 300;
+}
+.flat-price {
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.thumbnail-title {
   font-family: Roboto-Bold;
   font-size: 18px;
   font-weight: 500;
 }
-.text-thumbnail {
+.thumbnail-text {
   font-family: Roboto-Light;
   font-size: 17px;
   font-weight: 300;
 }
-.title-footer {
+.footer-title {
   font-family: Shrikhand-Regular;
   font-size: 17px;
 }
-.text-footer-top {
+.footer-top-text {
   font-family: Roboto;
   font-size: 19px;
   font-weight: 900;
 }
-.text-footer-bootom {
+.footer-bottom-text {
   font-family: Roboto-Light;
   font-size: 23px;
   font-weight: 300;

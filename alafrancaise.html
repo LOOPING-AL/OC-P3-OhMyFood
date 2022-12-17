@@ -13,7 +13,7 @@
         src="public/icones/arrow_forward_black_24dp.svg"
         alt="arrow_forward_black_24dp"
       />
-      <h1 class="header__title title-main">ohmyfood</h1>
+      <h1 class="header__title main-title">ohmyfood</h1>
     </header>
 
     <main class="main-restaurant">
@@ -23,82 +23,173 @@
         alt=""
       />
       <div>
-        <h1 class="title-restaurant">À la française</h1>
+        <h1 class="main-restaurant__title restaurant-title">À la française</h1>
         <section class="meal">
-          <h2 class="title-meal meal__title">Entrées</h2>
+          <h2 class="meal-title meal__title">Entrées</h2>
           <div class="line"></div>
           <div class="meal__flat">
-            <h3>Tartare de poulpe acidulé</h3>
-            <div class="meal__flat__description">
-              <h4>Aux zestes d'orange</h4>
-              <h5>25€</h5>
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Tartare de poulpe acidulé</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Aux zestes d'orange</h4>
+                <h5 class="flat-price">25€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
           <div class="meal__flat">
-            <h3>Velouté de légumes d'antan</h3>
-            <div class="meal__flat__description">
-              <h4>Carotte, panais, topinambour</h4>
-              <h5>35€</h5>
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Velouté de légumes d'antan</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Carotte, panais, topinambour</h4>
+                <h5 class="flat-price">35€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
-          <div class="meal__flat">
-            <h3>Soupe à l'oignon</h3>
-            <div class="meal__flat__description">
-              <h4>Revisitée</h4>
-              <h5>20€</h5>
+          <div class="meal__flat meal__title">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Soupe à l'oignon</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Revisitée</h4>
+                <h5 class="flat-price">20€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
         </section>
-        <section>
-          <h2 class="title-meal">Plats</h2>
+        <section class="meal">
+          <h2 class="meal-title meal__title">Plats</h2>
           <div class="line"></div>
-          <div>
-            <h3>Coquilles Saint-Jacques</h3>
-            <div>
-              <h4>Accompagnées d'une purée de panais</h4>
-              <h5>40€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Coquilles Saint-Jacques</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">
+                  Accompagnées d'une purée de panais
+                </h4>
+                <h5 class="flat-price">40€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
-          <div>
-            <h3>Magret de canard</h3>
-            <div>
-              <h4>Et parmentier de pommes de terre</h4>
-              <h5>35€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Magret de canard</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">
+                  Et parmentier de pommes de terre
+                </h4>
+                <h5 class="flat-price">35€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
-          <div>
-            <h3>Pigeonneau d’Ille-et-Vilaine</h3>
-            <div>
-              <h4>Sur son lit de gnocchis aux légumes</h4>
-              <h5>44€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Pigeonneau d’Ille-et-Vilaine</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">
+                  Sur son lit de gnocchis aux légumes
+                </h4>
+                <h5 class="flat-price">44€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
         </section>
-        <section>
-          <h2 class="title-meal">Desserts</h2>
+
+        <section class="meal">
+          <h2 class="meal-title">Desserts</h2>
           <div class="line"></div>
-          <div>
-            <h3>Pétales de violettes glacés</h3>
-            <div>
-              <h4>Et purée de noisettes</h4>
-              <h5>18€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Pétales de violettes glacés</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Et purée de noisettes</h4>
+                <h5 class="flat-price">18€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
-          <div>
-            <h3>Fondant au chocolat</h3>
-            <div>
-              <h4>Revisité</h4>
-              <h5>22€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Fondant au chocolat</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Revisité</h4>
+                <h5 class="flat-price">22€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
-          <div>
-            <h3>Millefeuille croustillant</h3>
-            <div>
-              <h4>Myrtilles et pâte d’amande</h4>
-              <h5>23€</h5>
+          <div class="meal__flat">
+            <div class="meal__flat__left">
+              <h3 class="flat-title">Millefeuille croustillant</h3>
+              <div class="meal__flat__description">
+                <h4 class="flat-description">Myrtilles et pâte d’amande</h4>
+                <h5 class="flat-price">23€</h5>
+              </div>
+            </div>
+            <div class="meal__flat__right">
+              <img
+                class="logo-validation"
+                src="public/icones/check_circle_black_24dp.svg"
+                alt="check_circle_black_24dp"
+              />
             </div>
           </div>
         </section>
+        <div class="button">
+          <button class="btn main-restaurant__button">Commander</button>
+        </div>
       </div>
     </main>
 
@@ -107,11 +198,11 @@
         <ul>
           <li>
             <a class="link" href="">
-              <h1 class="title-footer">ohmyfood</h1>
+              <h1 class="footer-title">ohmyfood</h1>
             </a>
           </li>
           <li>
-            <a class="link text-footer-top" href="">
+            <a class="link footer-top-text" href="">
               <img
                 class="logo-footer"
                 src="public/icones/restaurant_black_24dp.svg"
@@ -121,7 +212,7 @@
             </a>
           </li>
           <li>
-            <a class="link text-footer-top" href="">
+            <a class="link footer-top-text" href="">
               <img
                 class="logo-footer"
                 src="public/icones/handshake_FILL0_wght400_GRAD0_opsz48.svg"
@@ -131,12 +222,12 @@
             </a>
           </li>
           <li>
-            <a class="link text-footer-bootom" href="">
+            <a class="link footer-bottom-text" href="">
               <h6>Mentions légales</h6>
             </a>
           </li>
           <li>
-            <a class="link text-footer-bootom" href=""><h6>Contact</h6></a>
+            <a class="link footer-bottom-text" href=""><h6>Contact</h6></a>
           </li>
         </ul>
       </nav>
