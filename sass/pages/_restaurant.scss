@@ -28,7 +28,6 @@
     margin-bottom: 25px;
   }
   &__button {
-    // margin-top: 20px;
     width: 200px;
   }
 }
@@ -49,6 +48,12 @@
     border-radius: 15px;
     background-color: white;
     margin-bottom: 14px;
+    h3,
+    h4 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     &__left {
       padding-top: 15px;
       padding-bottom: 15px;
@@ -61,11 +66,6 @@
       justify-content: space-between;
       align-items: center;
       gap: 5px;
-      h4 {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
     }
     &__right {
       &:hover {

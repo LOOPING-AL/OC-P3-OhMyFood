@@ -403,6 +403,12 @@ footer h6 {
   background-color: white;
   margin-bottom: 14px;
 }
+.meal__flat h3,
+.meal__flat h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .meal__flat__left {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -415,11 +421,6 @@ footer h6 {
   justify-content: space-between;
   align-items: center;
   gap: 5px;
-}
-.meal__flat__description h4 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .meal__flat__right:hover {
   display: flex;
