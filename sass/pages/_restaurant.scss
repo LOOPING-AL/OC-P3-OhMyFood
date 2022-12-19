@@ -42,12 +42,16 @@
     margin-bottom: 5px;
   }
   &__flat {
+    position: relative;
+    overflow: hidden;
+
     height: 70px;
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
     background-color: white;
     margin-bottom: 14px;
+
     h3,
     h4 {
       white-space: nowrap;
@@ -58,25 +62,29 @@
       padding-top: 15px;
       padding-bottom: 15px;
       padding-left: 10px;
+      padding-right: 15px;
       width: 100%;
       overflow: hidden;
+      &:hover + .meal__flat__right {
+        right: 0px;
+        position: relative;
+      }
     }
     &__description {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include display-align-justify(space-between);
       gap: 5px;
     }
     &__right {
-      &:hover {
-        display: flex;
-        width: 80px;
-        margin-left: 15px;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 15px 15px 0px;
-        background-color: $colour-tertiary;
-      }
+      right: -80px;
+      width: 80px;
+      position: absolute;
+      transform-origin: right;
+      transition: all 1000ms cubic-bezier(0.32, 0, 0.07, 1);
+      height: 100%;
+      @include display-align-justify(center);
+      border-radius: 0px 15px 15px 0px;
+      background-color: $colour-tertiary;
+      color: white;
     }
   }
 }

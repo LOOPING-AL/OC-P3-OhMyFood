@@ -5,8 +5,7 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   a {
-    display: flex;
-    align-items: center;
+    @include display-align-justify();
     margin-bottom: 6px;
     gap: 10px;
   }

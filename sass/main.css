@@ -422,7 +422,12 @@ footer h6 {
   align-items: center;
   gap: 5px;
 }
+.meal__flat__right {
+  transform: scale(0);
+  transition-duration: 1s;
+}
 .meal__flat__right:hover {
+  transform: scale(1);
   display: flex;
   width: 80px;
   margin-left: 15px;
