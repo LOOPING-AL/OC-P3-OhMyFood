@@ -1,3 +1,6 @@
+#index .header__logo {
+  display: none;
+}
 .localisation {
   @include display-align-justify(center);
   background-color: $colour-grey;
