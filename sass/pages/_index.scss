@@ -98,7 +98,7 @@
       color: #008766;
       font-weight: 900;
     }
-    > img {
+    &__img {
       height: 175px;
       object-fit: cover;
       border-radius: 20px 20px 0px 0px;
@@ -111,6 +111,11 @@
       padding-bottom: 20px;
       padding-left: 15px;
       padding-right: 25px;
+      &:hover + .logo-heart--full {
+        height: 40px;
+        bottom: 26px;
+        right: 15px;
+      }
     }
   }
 }

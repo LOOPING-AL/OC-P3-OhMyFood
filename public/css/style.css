@@ -175,17 +175,19 @@ p {
 }
 
 .logo-heart--full {
-  bottom: 30px;
-  right: 20px;
+  bottom: 45px;
+  right: 35px;
   position: absolute;
   height: 0px;
-  transition: all 500ms;
+  transition: all 700ms cubic-bezier(0.14, 1, 0.57, 1);
+  z-index: 2;
 }
+
 .logo-heart--empty {
   bottom: 30px;
   right: 20px;
   position: absolute;
-  height: 20px;
+  height: 30px;
 }
 
 .btn {
@@ -415,7 +417,7 @@ footer h6 {
   color: #008766;
   font-weight: 900;
 }
-.restaurant__thumbnail > img {
+.restaurant__thumbnail__img {
   height: 175px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -430,6 +432,11 @@ footer h6 {
   padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 25px;
+}
+.restaurant__thumbnail__description:hover + .logo-heart--full {
+  height: 40px;
+  bottom: 26px;
+  right: 15px;
 }
 
 .container {
@@ -549,7 +556,6 @@ footer h6 {
   position: relative;
   right: -80px;
   width: 0px;
-  transform-origin: right;
   transition: all 500ms;
   height: 100%;
   display: flex;
