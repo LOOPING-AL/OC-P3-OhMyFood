@@ -1,3 +1,17 @@
+.container {
+  visibility: hidden;
+  animation: $loader-time fadeIn;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
 .line {
   width: 30px;
   height: 3px;
@@ -63,7 +77,6 @@
     animation-timing-function: cubic-bezier(0.08, 0.56, 0.38, 1.14);
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
-
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -101,7 +114,7 @@
       right: -80px;
       width: 0px;
       transform-origin: right;
-      transition: right 500ms, width 500ms;
+      transition: all 500ms;
       height: 100%;
       @include display-align-justify(center);
       border-radius: 0px 15px 15px 0px;
@@ -112,11 +125,11 @@
 }
 
 .delay-1 {
-  animation-delay: 0.3s;
+  animation-delay: $loader-time + 0.3s;
 }
 .delay-2 {
-  animation-delay: 0.4s;
+  animation-delay: $loader-time + 0.4s;
 }
 .delay-3 {
-  animation-delay: 0.5s;
+  animation-delay: $loader-time + 0.5s;
 }

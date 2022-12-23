@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="/public/css/style.css" />
     <title>Ohmyfood!</title>
   </head>
+
   <body id="index">
     <header class="header">
       <a class="header__logo link" href="index.html">
         <img
-          class="logo-arrow"
+          class="logo-arrow--inactivate"
           src="public/icones/arrow_forward_black_24dp.svg"
           alt="arrow_forward_black_24dp"
         />
       </a>
-      <a href="index.html" class="link 
-      header__title main-title">ohmyfood</a>
+      <a href="index.html" class="link header__title main-title">ohmyfood</a>
     </header>
 
     <main>
-      <thead>
+      <section>
         <div class="localisation">
           <img
             src="public/icones/location_on_black_24dp.svg"
@@ -36,47 +36,52 @@
           <h4 class="explor-text">selectionnés par nos soins.</h4>
           <button class="btn">Explorez nos restaurants</button>
         </div>
-      </thead>
+      </section>
+
       <section class="fonctionning">
         <h2 class="secondary-title">Fonctionnement</h2>
-        <div>
-          <div class="fonctionning__number">1</div>
+        <article>
+          <span class="fonctionning__number fonctionning-number">1</span>
           <div class="fonctionning__text">
             <img
-              class="fonctionning__img"
+              class="logo-fonctionning"
               src="public/icones/phone_iphone_black_24dp.svg"
               alt="phone_iphone_black_24dp"
             />
             <h5 class="fonctionning-title">Choisissez un restaurant</h5>
           </div>
-        </div>
-        <div>
-          <div class="fonctionning__number">2</div>
+        </article>
+
+        <article>
+          <span class="fonctionning__number fonctionning-number">2</span>
           <div class="fonctionning__text">
             <img
-              class="fonctionning__img"
+              class="logo-fonctionning"
               src="public/icones/list_black_24dp.svg"
               alt="list_black_24dp"
             />
             <h5 class="fonctionning-title">Composez votre menu</h5>
           </div>
-        </div>
-        <div>
-          <div class="fonctionning__number">3</div>
+        </article>
+
+        <article>
+          <span class="fonctionning__number fonctionning-number">3</span>
           <div class="fonctionning__text fonctionning__text-activate">
             <img
-              class="fonctionning__img fonctionning__img--activate"
+              class="logo-fonctionning logo-fonctionning--activate"
               src="public/icones/storefront_black_24dp.svg"
               alt="phone_iphone_black_24dp"
             />
             <h5 class="fonctionning-title">Dégustez au restaurant</h5>
           </div>
-        </div>
+        </article>
       </section>
+
       <section class="restaurant">
         <h2 class="secondary-title">Restaurants</h2>
+
         <div class="restaurant__arrangement">
-          <a class="link restaurant__thumbnail" href="alafrancaise.html">
+          <a class="link restaurant__thumbnail">
             <p class="new">Nouveau</p>
             <img
               src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
@@ -93,6 +98,7 @@
               />
             </div>
           </a>
+
           <a class="link restaurant__thumbnail" href="#">
             <p class="new">Nouveau</p>
             <img
@@ -110,7 +116,11 @@
               />
             </div>
           </a>
-          <a class="link restaurant__thumbnail" href="#">
+
+          <a
+            class="link restaurant__thumbnail"
+            href="/menus/a_la_francaise.html"
+          >
             <img
               src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
               alt="jay-wennington-N_Y88TWmGwA-unsplash"
@@ -126,6 +136,7 @@
               />
             </div>
           </a>
+
           <a class="link restaurant__thumbnail" href="#">
             <img
               src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
@@ -145,6 +156,7 @@
         </div>
       </section>
     </main>
+
     <footer>
       <nav class="footer">
         <ul>
@@ -153,8 +165,9 @@
               <h1 class="footer-title">ohmyfood</h1>
             </a>
           </li>
+
           <li>
-            <a class="link footer-top-text" href="">
+            <a class="link footer-top-text" href="#">
               <img
                 class="logo-footer"
                 src="public/icones/restaurant_black_24dp.svg"
@@ -163,8 +176,9 @@
               <h5>Proposer un restaurant</h5>
             </a>
           </li>
+
           <li>
-            <a class="link footer-top-text" href="">
+            <a class="link footer-top-text" href="#">
               <img
                 class="logo-footer"
                 src="public/icones/handshake_FILL0_wght400_GRAD0_opsz48.svg"
@@ -173,13 +187,14 @@
               <h5>Devinir partenaire</h5>
             </a>
           </li>
+
           <li>
-            <a class="link footer-bottom-text" href="">
+            <a class="link footer-bottom-text" href="#">
               <h6>Mentions légales</h6>
             </a>
           </li>
           <li>
-            <a class="link footer-bottom-text" href=""><h6>Contact</h6></a>
+            <a class="link footer-bottom-text" href="#"><h6>Contact</h6></a>
           </li>
         </ul>
       </nav>

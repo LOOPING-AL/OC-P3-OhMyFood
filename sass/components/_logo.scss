@@ -1,6 +1,9 @@
 .logo-arrow {
   height: 20px;
   rotate: 180deg;
+  &--inactivate {
+    display: none;
+  }
 }
 .logo-footer {
   height: 20px;
@@ -13,4 +16,30 @@
     brightness(100%) contrast(103%);
   transform: rotate(-360deg);
   transition: transform 500ms ease-in-out;
+}
+.logo-fonctionning {
+  height: 25px;
+  margin-right: 10px;
+  filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg)
+    brightness(104%) contrast(91%);
+  &--activate {
+    filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+      brightness(87%) contrast(97%);
+  }
+}
+
+.logo-heart {
+  &--full {
+    bottom: 30px;
+    right: 20px;
+    position: absolute;
+    height: 0px;
+    transition: all 500ms;
+  }
+  &--empty {
+    bottom: 30px;
+    right: 20px;
+    position: absolute;
+    height: 20px;
+  }
 }
