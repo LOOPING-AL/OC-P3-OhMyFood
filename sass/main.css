@@ -205,13 +205,17 @@ p {
   height: 50px;
   border-radius: 25px;
   border: 0;
-  background: #ff79da;
   color: white;
   font-weight: 500;
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
+  box-shadow: 0px 0px 6px #222;
   background-image: linear-gradient(to top, #9356dc 0%, #ff79da 100%);
+}
+.btn:hover {
+  background-image: linear-gradient(to top, #a16be0 0%, #ff93e1 100%);
+  box-shadow: 0 0px 8px 0px black;
 }
 
 @-webkit-keyframes appear {
@@ -708,23 +712,23 @@ footer h6 {
 }
 
 .delay-1 {
-  -webkit-animation-delay: 5.3s;
-          animation-delay: 5.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .delay-2 {
-  -webkit-animation-delay: 5.4s;
-          animation-delay: 5.4s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .delay-3 {
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .delay-4 {
-  -webkit-animation-delay: 5.6s;
-          animation-delay: 5.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 @media screen and (min-width: 768px) {

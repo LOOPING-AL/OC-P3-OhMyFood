@@ -115,16 +115,16 @@
 }
 
 .delay-1 {
-  animation-delay: $loader-time + 0.3s;
+  animation-delay: +0.3s;
 }
 .delay-2 {
-  animation-delay: $loader-time + 0.4s;
+  animation-delay: 0.4s;
 }
 .delay-3 {
-  animation-delay: $loader-time + 0.5s;
+  animation-delay: 0.5s;
 }
 .delay-4 {
-  animation-delay: $loader-time + 0.6s;
+  animation-delay: 0.6s;
 }
 
 @media screen and (min-width: 768px) {
