@@ -123,6 +123,9 @@
 .delay-3 {
   animation-delay: $loader-time + 0.5s;
 }
+.delay-4 {
+  animation-delay: $loader-time + 0.6s;
+}
 
 @media screen and (min-width: 768px) {
   .main-restaurant {
