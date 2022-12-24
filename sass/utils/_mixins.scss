@@ -3,3 +3,20 @@
   align-items: center;
   justify-content: $justify;
 }
+
+@mixin restaurant-img-radius(
+  $size-restaurant,
+  $size-restaurant-img,
+  $radius-up: 40px,
+  $radius-down: 0px
+) {
+  height: $size-restaurant + $size-restaurant-img - $radius-up;
+  &__image {
+    height: $size-restaurant-img;
+  }
+  > div {
+    border-radius: $radius-up $radius-up $radius-down $radius-down;
+    height: $size-restaurant;
+    top: $size-restaurant-img - $radius-up;
+  }
+}

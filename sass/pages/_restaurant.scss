@@ -1,8 +1,3 @@
-.container {
-  visibility: hidden;
-  animation: $loader-time fadeIn;
-  animation-fill-mode: forwards;
-}
 @keyframes fadeIn {
   99% {
     visibility: hidden;
@@ -20,23 +15,19 @@
 }
 
 .main-restaurant {
+  @include restaurant-img-radius(1200px, 260px);
   position: relative;
-  height: 1350px;
   &__image {
-    height: 260px;
     object-fit: cover;
     width: 100%;
   }
   > div {
     background-color: $colour-grey;
-    border-radius: 40px 40px 0px 0px;
     padding-left: 15px;
     padding-right: 15px;
     position: absolute;
     right: 0;
     left: 0;
-    height: 1130px;
-    top: 220px;
   }
   &__title {
     margin-top: 30px;
@@ -131,4 +122,35 @@
 }
 .delay-3 {
   animation-delay: $loader-time + 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .main-restaurant {
+    @include restaurant-img-radius(600px, 100px);
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-left: 30px;
+      padding-right: 30px;
+      flex-direction: row;
+    }
+    &__title {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 25px;
+      margin-left: 25px;
+    }
+  }
+  .meal {
+    width: 30%;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-restaurant {
+    @include restaurant-img-radius(550, 400px, 50px, 50px);
+  }
 }

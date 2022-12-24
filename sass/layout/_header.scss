@@ -1,7 +1,7 @@
 .header {
   position: relative;
   height: 50px;
-  box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 0px 6px 0px #222;
   @include display-align-justify(center);  
   &__logo {
     position: absolute;
