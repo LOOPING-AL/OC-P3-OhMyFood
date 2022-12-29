@@ -8,6 +8,8 @@
 }
 
 .explor {
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 35px;
   height: 180px;
   padding-bottom: 60px;
@@ -141,9 +143,10 @@
   .restaurant__arrangement {
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .restaurant__thumbnail {
-    width: 22%;
+    width: 48%;
     &__description {
       padding-top: 5px;
       padding-left: 10px;
@@ -162,27 +165,29 @@
 
 @media screen and (min-width: 992px) {
   .localisation {
-    justify-content: left;
-    padding-left: 30px;
-    padding-top: 40px;
-    background-color: $colour-grey-light;
     border-radius: 50px 50px 0px 0px;
     margin-top: 30px;
+    width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .explor {
-    text-align: start;
     padding-left: 30px;
     border-radius: 0px 0px 50px 50px;
+    width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .restaurant {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 50px;
     margin-bottom: 30px;
-    &__arrangement {
-      flex-wrap: wrap;
-    }
-    &__thumbnail {
-      width: 48%;
-    }
   }
 }

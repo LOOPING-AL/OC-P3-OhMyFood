@@ -1,5 +1,14 @@
 .container {
+  margin: auto;
+  max-width: 1400px;
   visibility: hidden;
   animation: $loader-time fadeIn;
   animation-fill-mode: forwards;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

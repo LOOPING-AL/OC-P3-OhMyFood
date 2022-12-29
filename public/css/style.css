@@ -1,6 +1,5 @@
 body {
-  margin: auto;
-  max-width: 1400px;
+  margin: 0;
 }
 
 ul {
@@ -14,12 +13,6 @@ li {
   padding: 0;
 }
 
-@media screen and (min-width: 992px) {
-  .content {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
 @font-face {
   font-family: Shrikhand-Regular;
   src: url(../../public/font/Shrikhand/Shrikhand-Regular.ttf);
@@ -190,6 +183,10 @@ p {
   height: 30px;
 }
 
+.logo-heart-title {
+  height: 30px;
+}
+
 .logo-validation {
   height: 24px;
   filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg) brightness(100%) contrast(103%);
@@ -210,12 +207,12 @@ p {
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
-  box-shadow: 0px 0px 6px #222;
+  box-shadow: 0px 2px 6px #222;
   background-image: linear-gradient(to top, #9356dc 0%, #ff79da 100%);
 }
 .btn:hover {
   background-image: linear-gradient(to top, #a16be0 0%, #ff93e1 100%);
-  box-shadow: 0 0px 8px 0px black;
+  box-shadow: 0 2px 6px black;
 }
 
 @keyframes appear {
@@ -248,7 +245,7 @@ p {
 }
 .loader {
   visibility: visible;
-  animation: 5s appear;
+  animation: 0s appear;
   animation-fill-mode: forwards;
   display: flex;
   justify-content: center;
@@ -301,11 +298,19 @@ p {
 }
 
 .container {
+  margin: auto;
+  max-width: 1400px;
   visibility: hidden;
-  animation: 5s fadeIn;
+  animation: 0s fadeIn;
   animation-fill-mode: forwards;
 }
 
+@media screen and (min-width: 992px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 footer {
   background-color: #353535;
   color: white;
@@ -315,7 +320,7 @@ footer {
 }
 footer h2 {
   padding-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 footer a {
   display: flex;
@@ -330,6 +335,34 @@ footer h6 {
   color: white;
 }
 
+.footer__arrangement {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 150px;
+  }
+  footer h2 {
+    margin-bottom: 20px;
+  }
+  .footer__arrangement {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__arrangement__title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer__arrangement__link {
+    display: flex;
+    justify-content: center;
+    width: 24%;
+  }
+}
 .localisation {
   display: flex;
   align-items: center;
@@ -342,6 +375,8 @@ footer h6 {
 }
 
 .explor {
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 35px;
   height: 180px;
   padding-bottom: 60px;
@@ -482,9 +517,10 @@ footer h6 {
   .restaurant__arrangement {
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .restaurant__thumbnail {
-    width: 22%;
+    width: 48%;
   }
   .restaurant__thumbnail__description {
     padding-top: 5px;
@@ -502,27 +538,29 @@ footer h6 {
 }
 @media screen and (min-width: 992px) {
   .localisation {
-    justify-content: left;
-    padding-left: 30px;
-    padding-top: 40px;
-    background-color: #f7f7f7;
     border-radius: 50px 50px 0px 0px;
     margin-top: 30px;
+    width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .explor {
-    text-align: start;
     padding-left: 30px;
     border-radius: 0px 0px 50px 50px;
+    width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .restaurant {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 50px;
     margin-bottom: 30px;
-  }
-  .restaurant__arrangement {
-    flex-wrap: wrap;
-  }
-  .restaurant__thumbnail {
-    width: 48%;
   }
 }
 @keyframes fadeIn {
@@ -565,8 +603,11 @@ footer h6 {
   left: 0;
 }
 .main-restaurant__title {
+  display: flex;
+  justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 25px;
+  margin-right: 20px;
 }
 .main-restaurant__button {
   width: 200px;
@@ -608,6 +649,7 @@ footer h6 {
   border-radius: 15px;
   background-color: white;
   margin-bottom: 14px;
+  box-shadow: 0px 5px 10px 5px #eaeaea;
 }
 .meal__flat h3,
 .meal__flat h4 {
@@ -689,9 +731,8 @@ footer h6 {
   }
   .main-restaurant__title {
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 25px;
-    margin-left: 25px;
+    margin-bottom: 0;
+    margin-left: 35px;
   }
   .meal {
     width: 30%;
@@ -707,7 +748,7 @@ footer h6 {
   }
   .main-restaurant > div {
     border-radius: 50px 50px 50px 50px;
-    height: 550;
+    height: 550px;
     top: 350px;
   }
 }
