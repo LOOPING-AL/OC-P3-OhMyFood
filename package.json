@@ -1,7 +1,7 @@
 {
   "name": "oc-p3",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "ohmyfood",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
