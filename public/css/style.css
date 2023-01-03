@@ -245,7 +245,7 @@ p {
 }
 .loader {
   visibility: visible;
-  animation: 0s appear;
+  animation: 3s appear;
   animation-fill-mode: forwards;
   display: flex;
   justify-content: center;
@@ -301,7 +301,7 @@ p {
   margin: auto;
   max-width: 1400px;
   visibility: hidden;
-  animation: 0s fadeIn;
+  animation: 3s fadeIn;
   animation-fill-mode: forwards;
 }
 
