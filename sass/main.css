@@ -162,16 +162,19 @@ p {
 
 .logo-footer {
   height: 20px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg) brightness(100%) contrast(103%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg)
+    brightness(100%) contrast(103%);
 }
 
 .logo-fonctionning {
   height: 25px;
   margin-right: 10px;
-  filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg) brightness(104%) contrast(91%);
+  filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg)
+    brightness(104%) contrast(91%);
 }
 .logo-fonctionning--activate {
-  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg) brightness(87%) contrast(97%);
+  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+    brightness(87%) contrast(97%);
 }
 
 .logo-heart--full {
@@ -192,7 +195,8 @@ p {
 
 .logo-validation {
   height: 24px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg) brightness(100%) contrast(103%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg)
+    brightness(100%) contrast(103%);
   transform: rotate(-360deg);
   transition: transform 500ms ease-in-out;
 }
@@ -278,9 +282,9 @@ p {
 .loader {
   visibility: visible;
   -webkit-animation: 5s appear;
-          animation: 5s appear;
+  animation: 5s appear;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   display: flex;
   justify-content: center;
   position: relative;
@@ -293,25 +297,28 @@ p {
   transform: translateZ(0);
   position: absolute;
   -webkit-animation: loader 1.5s infinite cubic-bezier(1, 1, 1, 1);
-          animation: loader 1.5s infinite cubic-bezier(1, 1, 1, 1);
+  animation: loader 1.5s infinite cubic-bezier(1, 1, 1, 1);
 }
 
 .loader img:nth-child(1) {
   -webkit-animation-delay: -0.5s;
-          animation-delay: -0.5s;
-  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg) brightness(87%) contrast(97%);
+  animation-delay: -0.5s;
+  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+    brightness(87%) contrast(97%);
 }
 
 .loader img:nth-child(2) {
   -webkit-animation-delay: -1s;
-          animation-delay: -1s;
-  filter: invert(78%) sepia(33%) saturate(5295%) hue-rotate(284deg) brightness(104%) contrast(102%);
+  animation-delay: -1s;
+  filter: invert(78%) sepia(33%) saturate(5295%) hue-rotate(284deg)
+    brightness(104%) contrast(102%);
 }
 
 .loader img:nth-child(3) {
   -webkit-animation-delay: -1.5s;
-          animation-delay: -1.5s;
-  filter: invert(81%) sepia(4%) saturate(5264%) hue-rotate(81deg) brightness(129%) contrast(113%);
+  animation-delay: -1.5s;
+  filter: invert(81%) sepia(4%) saturate(5264%) hue-rotate(81deg)
+    brightness(129%) contrast(113%);
 }
 
 .header {
@@ -336,9 +343,9 @@ p {
 .container {
   visibility: hidden;
   -webkit-animation: 5s fadeIn;
-          animation: 5s fadeIn;
+  animation: 5s fadeIn;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 footer {
@@ -476,7 +483,7 @@ footer h6 {
 .restaurant__thumbnail__img {
   height: 175px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
 .restaurant__thumbnail__description {
@@ -598,7 +605,7 @@ footer h6 {
 }
 .main-restaurant__image {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .main-restaurant > div {
@@ -654,15 +661,15 @@ footer h6 {
   position: relative;
   overflow: hidden;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-name: animate-fade;
-          animation-name: animate-fade;
+  animation-name: animate-fade;
   -webkit-animation-timing-function: cubic-bezier(0.08, 0.56, 0.38, 1.14);
-          animation-timing-function: cubic-bezier(0.08, 0.56, 0.38, 1.14);
+  animation-timing-function: cubic-bezier(0.08, 0.56, 0.38, 1.14);
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -713,22 +720,22 @@ footer h6 {
 
 .delay-1 {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .delay-2 {
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .delay-3 {
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .delay-4 {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 @media screen and (min-width: 768px) {
@@ -772,7 +779,7 @@ footer h6 {
   }
   .main-restaurant > div {
     border-radius: 50px 50px 50px 50px;
-    height: 550;
+    height: 550px;
     top: 350px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

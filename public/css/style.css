@@ -155,16 +155,19 @@ p {
 
 .logo-footer {
   height: 20px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg) brightness(100%) contrast(103%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg)
+    brightness(100%) contrast(103%);
 }
 
 .logo-fonctionning {
   height: 25px;
   margin-right: 10px;
-  filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg) brightness(104%) contrast(91%);
+  filter: invert(46%) sepia(0%) saturate(80%) hue-rotate(166deg)
+    brightness(104%) contrast(91%);
 }
 .logo-fonctionning--activate {
-  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg) brightness(87%) contrast(97%);
+  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+    brightness(87%) contrast(97%);
 }
 
 .logo-heart--full {
@@ -189,7 +192,8 @@ p {
 
 .logo-validation {
   height: 24px;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg) brightness(100%) contrast(103%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(99deg)
+    brightness(100%) contrast(103%);
   transform: rotate(-360deg);
   transition: transform 500ms ease-in-out;
 }
@@ -265,17 +269,20 @@ p {
 
 .loader img:nth-child(1) {
   animation-delay: -0.5s;
-  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg) brightness(87%) contrast(97%);
+  filter: invert(47%) sepia(95%) saturate(2900%) hue-rotate(238deg)
+    brightness(87%) contrast(97%);
 }
 
 .loader img:nth-child(2) {
   animation-delay: -1s;
-  filter: invert(78%) sepia(33%) saturate(5295%) hue-rotate(284deg) brightness(104%) contrast(102%);
+  filter: invert(78%) sepia(33%) saturate(5295%) hue-rotate(284deg)
+    brightness(104%) contrast(102%);
 }
 
 .loader img:nth-child(3) {
   animation-delay: -1.5s;
-  filter: invert(81%) sepia(4%) saturate(5264%) hue-rotate(81deg) brightness(129%) contrast(113%);
+  filter: invert(81%) sepia(4%) saturate(5264%) hue-rotate(81deg)
+    brightness(129%) contrast(113%);
 }
 
 .header {
