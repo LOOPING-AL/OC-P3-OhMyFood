@@ -1,9 +1,6 @@
 @keyframes appear {
-  79% {
+  99% {
     visibility: visible;
-  }
-  98% {
-    visibility: hidden;
   }
   100% {
     visibility: hidden;
@@ -30,11 +27,9 @@
 .loader {
   visibility: visible;
   animation: $loader-time appear;
-  animation-fill-mode: forwards;
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 1;
 }
 
 .loader img {
