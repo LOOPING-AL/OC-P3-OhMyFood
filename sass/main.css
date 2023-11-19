@@ -281,8 +281,8 @@ p {
 }
 .loader {
   visibility: visible;
-  -webkit-animation: 5s appear;
-  animation: 5s appear;
+  -webkit-animation: 2s appear;
+  animation: 2s appear;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   display: flex;
@@ -342,8 +342,8 @@ p {
 
 .container {
   visibility: hidden;
-  -webkit-animation: 5s fadeIn;
-  animation: 5s fadeIn;
+  -webkit-animation: 2s fadeIn;
+  animation: 2s fadeIn;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
